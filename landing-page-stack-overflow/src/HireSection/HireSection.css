@@ -1,0 +1,49 @@
+.hireSection {
+  display: flex;
+  background-color: #f7f6f9;
+  padding-bottom: 100px !important;
+}
+
+.hireSection__info {
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.hireSection__info > img {
+  width: 30%;
+}
+
+.hireSection__info > h1 {
+  margin: 20px 0;
+  font-size: 25px;
+  color: #242729;
+}
+
+.hireSection__info > p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #242729;
+}
+
+.hireSection__info > button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #ee7b06;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .hireSection {
+    flex-direction: column;
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+  .hireSection__info > img {
+    width: 20%;
+  }
+}

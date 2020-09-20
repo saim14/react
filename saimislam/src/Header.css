@@ -1,0 +1,65 @@
+.header {
+  background-color: black;
+  color: #00d700;
+  border-bottom: 5px solid;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top > h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  padding: 20px;
+}
+.header__profileImage {
+  height: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  border: 2px solid #00d700;
+}
+
+.header__nav {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.header__navContent {
+  display: flex;
+}
+.header__navContent > a,
+p {
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: transform 100ms ease-in !important;
+  color: #00d700;
+  text-decoration: none;
+}
+
+.header__navContent p:hover {
+  text-decoration: underline;
+  transform: scale(1.04) !important;
+  color: #40ee40;
+}
+
+.header__nav > h3 {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav {
+    flex-direction: columns;
+  }
+  .header__nav {
+    font-size: 13px;
+  }
+  .header__nav > h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,10 @@
+API Information
+------------------------------------------------------------------------
+TMDB API:
+API Key (v3 auth)
+59e102fa6adb09d1050206b035ef4055
+Example API Request
+https://api.themoviedb.org/3/movie/550?api_key=59e102fa6adb09d1050206b035ef4055
+API Read Access Token (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1OWUxMDJmYTZhZGIwOWQxMDUwMjA2YjAzNWVmNDA1NSIsInN1YiI6IjVmNGZhYjEyZWZjZWE5MDAzMzJlZjBiMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.sHEoNUbgugqcnbAIRlJ-ZRg_g8K1uBOg4d43usqR8fU
+-------------------------------------------------------------------------

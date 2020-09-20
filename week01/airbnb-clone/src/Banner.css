@@ -1,0 +1,44 @@
+.banner{
+  background: url("https://cdn.newsapi.com.au/image/v1/d2c693591c5436b8c4ca32476961c3ad?width=1024") center center;
+  height: 54vh;
+  position: relative;
+}
+
+.banner__info{
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  width: 300px;
+}
+
+.banner__search{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton{
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info> button{
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info>h5{
+  margin-top: 10px;
+}
+
+.banner__info > button:hover{
+  background-color: white;
+  color: #ff7779;
+}

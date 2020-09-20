@@ -1,0 +1,43 @@
+
+.app{
+  background-color: #FAFAFA;
+}
+
+.app__posts{
+  margin: 0 auto;
+  width: fit-content;
+}
+
+
+
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+
+.app__signUp{
+  display: flex;
+  flex-direction: column;
+}
+
+.ifNot_logIn > h3{
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+.ifNot_logIn{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}

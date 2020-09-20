@@ -1,0 +1,30 @@
+.imageUpload{
+  padding: 20px;
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: white;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  
+}
+
+.imageUpload > Button{
+  margin-left: -60px !important;
+  z-index: 1;
+  
+}
+
+.input[type="file" i]{
+  font-size: 20px;
+}
+
+.imageUpload__caption > input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline-width: 0;
+}

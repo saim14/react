@@ -1,0 +1,35 @@
+.app{
+  margin-top: 10px;
+  width: 50%;
+  background-color: rgb(237, 236, 241);
+  padding: 20px;
+  min-height: 500px;
+  padding-right: 20px;
+  
+}
+
+.app >h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #3f51b5;
+  padding-top: 10px;
+  margin-top: -25px;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.todo_items{
+  margin-right: 25px;
+  margin-left: -25px;
+}
+
+
+.app__form > Button{
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+.app {
+  background-color: #282923;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  height: auto;
+  color: #00d700;
+}
+
+@media screen and (max-width: 800px) {
+  .app__banner {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .app__bannerImage {
+    width: 40vw;
+  }
+  .app__me {
+    flex-direction: column;
+  }
+  .app__meright {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  .app__portfolio {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .app__portfolioImages {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .app__portfolioImage > img {
+    height: 300px;
+  }
+}

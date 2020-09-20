@@ -1,0 +1,36 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.channelRow__logo {
+  width: 120px !important;
+  height: 120px !important;
+  margin: 10px 40px;
+}
+
+.channeRow__text {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.channeRow__text > h4 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.channeRow__text > p {
+  color: gray;
+  font-size: small !important;
+}
+
+@media screen and (max-width: 650px) {
+  .channelRow__logo {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 5px 30px !important;
+  }
+}

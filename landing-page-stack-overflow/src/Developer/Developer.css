@@ -1,0 +1,50 @@
+.developer__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.developer__info > h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(27, 26, 26);
+}
+
+.developer__infoBorder {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #f48024;
+  height: 8px;
+}
+.developer__desc {
+  text-align: center;
+  padding: 20px 300px;
+  color: rgb(27, 26, 26);
+}
+
+@media screen and (max-width: 1050px) {
+  .developer__info > h1 {
+    font-size: 25px;
+  }
+
+  .developer__desc {
+    text-align: center;
+    padding: 20px 30px;
+    color: rgb(27, 26, 26);
+  }
+  .developer__card {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.developer__linkText {
+  color: #f48024;
+  cursor: pointer;
+}
+
+.developer__card {
+  display: flex;
+  justify-content: space-around;
+}

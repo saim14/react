@@ -1,0 +1,7 @@
+.sidebar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  flex: 0.5;
+}

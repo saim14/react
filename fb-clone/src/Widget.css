@@ -1,0 +1,5 @@
+.widget {
+  flex: 0.33;
+  display: flex;
+  flex-direction: column;
+}

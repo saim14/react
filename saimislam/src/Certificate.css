@@ -1,0 +1,48 @@
+.certificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificate > h2 {
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+
+.certificate__imgAndTitle {
+  height: 300px;
+  padding: 20px;
+  transition: transform 200ms ease-in !important;
+  color: #00d700;
+  text-decoration: none;
+}
+
+.certificate__imgAndTitle :hover {
+  transform: scale(1.04) !important;
+}
+
+.certificate__imgAndTitle > img {
+  height: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate__imgAndTitle > h3 {
+  padding: 10px;
+}
+
+.certificate__top {
+  display: flex;
+}
+
+.certificate__top > a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .certificate__top {
+    flex-direction: column;
+  }
+}

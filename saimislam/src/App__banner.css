@@ -1,0 +1,94 @@
+.app__banner {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.app__bannerLinkedin {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  color: #00d700 !important;
+}
+
+.app__bannerLinkedin > a {
+  text-decoration: none !important;
+  color: #00d700 !important;
+}
+
+.app__bannerImage {
+  height: 200px;
+  padding: 0px;
+  border: 1px dotted #00d700;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.app__me {
+  padding: 20px;
+  color: #00d700;
+  display: flex;
+}
+
+.app__meleft {
+  margin-bottom: 20px;
+}
+
+.app__meleft > h3 {
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.app__meleft > h4 {
+  margin-bottom: 10px;
+}
+
+.app__meright {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+
+.app__meright > h4 {
+  border-bottom: 2px dotted;
+  margin-bottom: 10px;
+}
+
+.app__mecenter {
+  margin-left: 30px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.app__mecenter > h4 {
+  border-bottom: 2px dotted;
+  margin-bottom: 10px;
+}
+
+.app__meleft > h4 {
+  border-bottom: 2px dotted;
+}
+
+@media screen and (max-width: 800px) {
+  .app__banner {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .app__bannerImage {
+    width: 50vw;
+  }
+  .app__me {
+    flex-direction: column;
+  }
+  .app__meright {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  .app__mecenter {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+}

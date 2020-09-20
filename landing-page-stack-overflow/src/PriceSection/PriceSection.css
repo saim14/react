@@ -1,0 +1,279 @@
+.priceSection {
+  background-color: #2b2d6e;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.priceSection__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.priceSection__info > h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  width: 600px;
+  text-align: center;
+}
+
+.priceSection__desc {
+  text-align: center;
+  padding: 20px 300px;
+  color: white;
+  margin-bottom: 20px;
+}
+.priceSection__info > button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #f48024;
+  color: white;
+  border: 0.5px solid #f48024;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.priceSectionCards {
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580");
+  object-fit: contain;
+  position: relative;
+}
+
+@media screen and (max-width: 1050px) {
+  .priceSectionCards {
+    flex-direction: column;
+    margin: 20px 10px;
+    align-items: center;
+  }
+  .priceSectionCard {
+    width: 60% !important;
+  }
+  .priceSection__desc {
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .priceSection__info > h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    width: 400px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .priceSectionCards {
+    flex-direction: column;
+    margin: 20px 0px;
+    align-items: center;
+  }
+  .priceSectionCard {
+    width: 90% !important;
+  }
+  .priceSection__desc {
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .priceSection__info > h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    width: 400px;
+    text-align: center;
+  }
+}
+.priceSectionCard {
+  background-color: white;
+  margin-bottom: 20px;
+  width: 25%;
+  margin: 10px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.priceSectionCard__buttonTopMiddle0 {
+  position: absolute;
+  z-index: 100;
+  top: 0 !important;
+  width: 200px;
+  padding: 5px 10px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  background-color: #d4d4da;
+  font-weight: 600;
+  color: #2e2e30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceSectionCard__buttonTopMiddle0 > .MuiSvgIcon-root {
+  font-size: 20px !important;
+}
+
+.priceSectionCard > p {
+  padding: 20px 10px;
+  font-size: 13px;
+  color: #2b2d6e;
+}
+
+.priceSectionCard > h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(31, 30, 30);
+}
+
+.priceSectionCard > h6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  color: rgb(182, 179, 179);
+}
+
+.priceSectionCard > hr {
+  margin: 10px 10px;
+  border: 0.5px solid lightgray !important;
+}
+
+.priceSectionCard__lists {
+  margin-bottom: 60px;
+}
+
+.priceSectionCard__list {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.priceSectionCard__list > p {
+  margin-left: 10px;
+  color: rgb(48, 46, 46);
+  font-size: small;
+}
+
+.priceSectionCard__list > .MuiSvgIcon-root {
+  color: rgb(48, 46, 46);
+  font-size: medium;
+}
+
+.priceSectionCard__buttonTopLeft {
+  position: relative;
+  top: 0px;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.priceSectionCard__buttonBottomLeft {
+  position: relative;
+  bottom: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 55px;
+}
+
+.priceSectionCard__buttonBottomLeft:hover {
+  background-color: #0095ff;
+  color: white;
+}
+
+.priceSectionCard__buttonTopMiddle {
+  position: relative;
+  top: 0px;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border: none;
+  background-color: lightgray;
+  color: #2b2d6e;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.priceSectionCard__buttonBottomMiddle {
+  margin-top: 120px;
+  position: relative;
+  bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+  color: #2b2d6e;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.priceSectionCard__buttonBottomMiddle:hover {
+  background-color: #0095ff;
+  color: white;
+}
+
+.priceSectionCard__buttonTopRight {
+  position: relative;
+  top: 0px;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border: none;
+  background-color: #2b2d6e;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.priceSectionCard__buttonBottomRight {
+  font-weight: 600;
+  position: relative;
+  bottom: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #2b2d6e;
+  color: white;
+  cursor: pointer;
+}
+
+.priceSectionCard__buttonBottomRight:hover {
+  background-color: #0095ff;
+}
+
+.priceSectionCard__list--gray > p {
+  color: gray !important;
+}
+
+.priceSectionCard__list--gray > .MuiSvgIcon-root {
+  color: gray !important;
+}
