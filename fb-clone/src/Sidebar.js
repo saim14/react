@@ -9,14 +9,13 @@ import StorefrontRoundedIcon from "@material-ui/icons/StorefrontRounded";
 import VideoLibraryRoundedIcon from "@material-ui/icons/VideoLibraryRounded";
 import ExpandMoreRoundedIcon from "@material-ui/icons/ExpandMoreRounded";
 import SidebarRow from "./SidebarRow";
+import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow
-        src="https://firebasestorage.googleapis.com/v0/b/ig-clone-14.appspot.com/o/images%2FIMG_20190922_235233_433.jpg?alt=media&token=641b14e2-970e-4422-bf13-02c51cdc3926"
-        title="Saim Islam"
-      />
+      <SidebarRow src={user.photoURL} title={user.displayName} />
       <SidebarRow
         Icon={LocalHospitalRoundedIcon}
         title="Covid 19 Information"

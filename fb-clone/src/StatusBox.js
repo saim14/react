@@ -4,14 +4,26 @@ import { Avatar } from "@material-ui/core";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
+import { useStateValue } from "./StateProvider";
+import db from "./firebase";
+import firebase from "firebase";
 
 function StatusBox() {
   const [input, setInput] = useState("");
   const [imageUrl, setImageUrl] = useState("");
+  const [{ user }] = useStateValue();
   const handleSubmit = (e) => {
     e.preventDefault();
-
     //db staff here
+    if (input || imageUrl) {
+      db.collection("posts").add({
+        post: input,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        profilePic: user.photoURL,
+        username: user.displayName,
+        image: imageUrl,
+      });
+    }
 
     setInput("");
     setImageUrl("");
@@ -19,13 +31,13 @@ function StatusBox() {
   return (
     <div className="statusBox">
       <div className="statusBox__top">
-        <Avatar src="https://firebasestorage.googleapis.com/v0/b/ig-clone-14.appspot.com/o/images%2FIMG_20190922_235233_433.jpg?alt=media&token=641b14e2-970e-4422-bf13-02c51cdc3926" />
+        <Avatar src={user.photoURL} />
         <form>
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="statusBox__input"
-            placeholder="What's on your mind"
+            placeholder={`What's on your mind, ${user.displayName}`}
           />
           <input
             value={imageUrl}

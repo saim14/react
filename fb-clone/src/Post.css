@@ -1,0 +1,115 @@
+.post {
+  width: 80%;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.postModal__form > Button {
+  margin: 5px;
+  margin-top: 10px;
+}
+.post__avatar {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.post__nameAndUpdate {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post__nameAndUpdate > h3 {
+  font-size: 15px;
+}
+
+.post__updateIcons {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.post__updateIcons > .MuiSvgIcon-root {
+  color: rgb(92, 89, 89);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.post__image > img {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.post__top {
+  padding: 20px;
+  display: flex;
+}
+.post__topInfo {
+  margin-left: 20px;
+}
+.post__topInfo > p {
+  color: gray;
+  display: flex;
+  font-size: 15px;
+}
+.post__topInfo > h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post__bottom > p {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.world {
+  font-size: 15px !important;
+  margin-top: 3px;
+}
+
+.post > hr {
+  margin: 0 20px;
+  border: none;
+  background-color: lightgray;
+  height: 1px;
+}
+.post__likeBar {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding-right: 20px;
+}
+
+.post__likeBarContent {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  color: rgb(97, 96, 96);
+  cursor: pointer;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-right: 20px;
+}
+
+.post__likeBarContent:hover {
+  background-color: lightgray;
+}
+
+.post__likeBarContent > p {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.post__likeBarContent > .MuiSvgIcon-root {
+  font-size: 25px !important;
+  padding: 5px;
+}
+
+.post__likeBarContentShareIcon {
+  transform: rotateY(180deg);
+}

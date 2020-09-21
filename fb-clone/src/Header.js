@@ -12,8 +12,10 @@ import FlagRoundedIcon from "@material-ui/icons/FlagRounded";
 import SupervisedUserCircleRoundedIcon from "@material-ui/icons/SupervisedUserCircleRounded";
 import ExpandMoreRoundedIcon from "@material-ui/icons/ExpandMoreRounded";
 import { Avatar, IconButton } from "@material-ui/core";
+import { useStateValue } from "./StateProvider";
 
 function Header() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="header">
       <div className="header__left">
@@ -45,11 +47,8 @@ function Header() {
       </div>
       <div className="header__right">
         <div className="header__info">
-          <Avatar
-            src="https://firebasestorage.googleapis.com/v0/b/ig-clone-14.appspot.com/o/images%2FIMG_20190922_235233_433.jpg?alt=media&token=641b14e2-970e-4422-bf13-02c51cdc3926"
-            className="header__avatar"
-          />
-          <h4>Saim Islam</h4>
+          <Avatar src={user.photoURL} className="header__avatar" />
+          <h4>{user.displayName}</h4>
         </div>
         <IconButton>
           <AddRoundedIcon />
