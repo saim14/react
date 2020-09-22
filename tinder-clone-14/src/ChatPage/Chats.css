@@ -1,0 +1,12 @@
+.chats {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.chats > h1 {
+  font-size: 20px;
+}

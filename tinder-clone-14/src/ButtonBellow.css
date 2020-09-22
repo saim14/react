@@ -1,0 +1,39 @@
+.buttonBellow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  margin-top: 10px;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+.buttonBellow > .MuiSvgIcon-root {
+  font-size: 35px !important;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 10px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
+
+.buttonBellow__reload {
+  color: #fbbb0f;
+}
+
+.buttonBellow__close {
+  color: #fc4866;
+}
+
+.buttonBellow__star {
+  color: #23b6fc;
+}
+
+.buttonBellow__love {
+  color: #30e4b2;
+}
+
+.buttonBellow__flash {
+  color: #a14fe4;
+}
