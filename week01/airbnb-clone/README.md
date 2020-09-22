@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+deployed link: https://airbnb-clone-69644.web.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
