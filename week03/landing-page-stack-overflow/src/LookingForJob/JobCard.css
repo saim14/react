@@ -1,0 +1,24 @@
+.jobCard {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.06),
+    0 3px 8px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  height: 80px;
+}
+
+.jobCard > img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.jobCard > p {
+  color: rgb(46, 47, 48);
+  font-weight: 400;
+  font-size: 13px;
+}

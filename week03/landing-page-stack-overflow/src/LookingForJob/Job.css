@@ -1,0 +1,47 @@
+.job {
+  background-color: #e1ecf4;
+  padding-bottom: 70px;
+}
+.job > h1 {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.job__info {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.job__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.job__info > button {
+  padding: 13px 35px;
+  border: none;
+  background-color: #f48024;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.job__robot {
+  margin-bottom: -77px;
+  width: 70px;
+  height: 70px;
+  margin-left: auto !important;
+  background-image: url("https://cdn.sstatic.net/Img/home/robot.svg?v=dfa16a330cbd");
+}

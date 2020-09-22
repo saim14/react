@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 4px solid #f48024;
+  background-color: #fafafb;
+  box-shadow: 0px 0.01px 10px lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 5050;
+  height: 50px;
+}
+
+@media screen and (max-width: 1050px) {
+  .header__middle {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__left > p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__right {
+    display: none !important;
+  }
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  flex: 0.4;
+}
+
+.header__left > p {
+  color: gray;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header__left > .MuiSvgIcon-root {
+  color: gray !important;
+  cursor: pointer;
+  padding: 16px 20px;
+}
+
+.header__left > .MuiSvgIcon-root:hover {
+  background-color: lightgray;
+}
+
+.header__img {
+  width: 150px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header__img:hover {
+  background-color: lightgray;
+}
+
+.header__left > p:hover {
+  background-color: lightgray;
+  border-radius: 999px;
+}
+.header__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  border: 1px solid lightgray;
+  margin-left: 0px;
+  margin-right: 10px;
+  border-radius: 2px;
+  padding: 3px 10px;
+  background-color: white;
+}
+
+.header__middle > .MuiSvgIcon-root {
+  color: gray !important;
+}
+
+.header__middle > input {
+  border: none;
+  outline-width: 0;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+}
+
+.header__login {
+  padding: 8px 5px;
+  width: 60px;
+  cursor: pointer;
+  color: #0077cc;
+  border: 0.5px solid #0077cc;
+  border-radius: 5px;
+  background-color: #dce6ec;
+}
+
+.header__signup {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 3px;
+  margin-right: 10px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: white;
+  border: 0.5px solid #0077cc;
+}
+
+.header__login:hover {
+  background-color: #bdd7e7;
+}
+
+.header__signup:hover {
+  background-color: #0465aa;
+}

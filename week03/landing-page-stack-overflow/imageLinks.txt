@@ -1,0 +1,13 @@
+logo: https://upload.wikimedia.org/wikipedia/commons/f/f7/Stack_Overflow_logo.png
+banner: https://cdn.sstatic.net/img/home/illo-hero-full.svg?v=e2018a5f9272
+developer:
+	left:https://cdn.sstatic.net/Img/home/public-qa.svg?v=d82acaa7df9f
+	middle:https://cdn.sstatic.net/Img/home/private-qa.svg?v=2c1de180b6d7
+	right:https://cdn.sstatic.net/Img/home/jobs.svg?v=931d6c0863ee
+business:
+	left: https://cdn.sstatic.net/Img/home/private-questions.svg?v=a4f1cfb08f7e
+	middle: https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3
+	right: https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02
+css property:
+	box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 2px 6px rgba(0,0,0,0.06),0 3px 8px rgba(0,0,0,0.09)
+	

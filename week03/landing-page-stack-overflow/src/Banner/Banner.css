@@ -1,0 +1,106 @@
+.banner {
+  background-color: #ffcf10;
+}
+
+@media screen and (max-width: 1050px) {
+  .banner__info > p {
+    font-size: 15px !important;
+    color: rgb(41, 38, 38);
+  }
+
+  .banner__info > h1 {
+    font-size: 45px !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .banner__info > p {
+    font-size: 13px !important;
+    color: rgb(41, 38, 38);
+  }
+
+  .banner__info > h1 {
+    font-size: 40px !important;
+  }
+  .banner__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .banner__developerButton {
+    margin-bottom: 10px !important;
+  }
+
+  .banner__businessButton {
+    margin-left: 10px !important;
+  }
+}
+/*https://riseusercontent.com/assets/rise/assets/marketing-images/illos/examples-hero-bg.svg*/
+.banner__image {
+  background: url("https://cdn.sstatic.net/img/home/illo-hero-full.svg?v=e2018a5f9272");
+  display: flex;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+
+.banner__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 550px;
+  margin-top: 150px;
+}
+
+.banner__info > p {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgb(41, 38, 38);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.banner__info > h1 {
+  font-size: 50px;
+  color: rgb(41, 38, 38);
+  font-family: "Roboto Slab";
+}
+
+.banner__infoLove {
+  font-weight: 900 !important;
+}
+
+.banner__developerButton {
+  padding: 14px 5px;
+  width: 120px;
+  cursor: pointer;
+  color: #f48024;
+  border: 0.5px solid #f48024;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.banner__businessButton {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #f48024;
+  color: white;
+  border: 0.5px solid #f48024;
+  font-weight: 500;
+  cursor: pointer;
+}
